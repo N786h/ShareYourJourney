@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ShareYourJourney</title>
+			<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+			http://shareyourjourney410775942.wordpress.com-->
+			<link href="https://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet">
+    	<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="container">
+			<header class="boxed">
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="signin.php">SignIn</a></li>
+						<li><a href="registration.php">SingUp</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="contact.php">Contact</a></li>
+					</ul>
+				</nav>
+				<div>
+					<a href="syj/index.html"><img src="images/logo.jpg" height=100 width=100 border=5/></a>
+				</div>
+			</header>
+
+			<section id="main" class="boxed">
+				<div class="boxed">
+					<marquee direction=right scrollamount=10 bgcolor=#ffc456><h2>Welcome to <em>Share Your Journey</em> web app</h2></marquee>
+					<div id="leftDiv">
+						<p>	This is a Share Your Journey web application aimed to help people find drivers and passengers sharing the same routes. Share Your Journey among interested parties contributing at the same time to a better ecological and health environment. By Share Your Journey, driver and passengers are reducing the costs and passengers are reducing the time spent on the available transportation networks.
+						This system allows driver to Share Your Journey with the help of our web app. In this app registered user can perform driver or passenger role. A driver can share his routes with the help of our web app after login the application. A passenger can search route and match his route with driver`s source and destination route. If route is matched then passenger sends a request to that driver, after accepting the request passenger can takes journey with driver.
+		  				</p>
+	  				</div>
+	  				<div id="rightDiv">
+
+					  <img src="images/1.png" class="mySlides" width=100%; height=400px;>
+					  <img src="images/2.png" class="mySlides" width=100%; height=400px;>
+					  <img src="images/3.png" class="mySlides" width=100%; height=400px;>
+					  <img src="images/4.png" class="mySlides" width=100%; height=400px;>
+					  <img src="images/5.png" class="mySlides" width=100%; height=400px;>
+					  <img src="images/6.png" class="mySlides" width=100%; height=400px;>
+					  <img src="images/7.png" class="mySlides" width=100%; height=400px;>
+					  <img src="images/8.png" class="mySlides" width=100%; height=400px;>
+					  <img src="images/9.png" class="mySlides" width=100%; height=400px;>
+
+	  				</div>
+  				</div>
+	   		</section>
+			<footer class="boxed" style="float: left; width: 98%">
+				copyright &copy; 2018 All Rights Reserverd email:shareyourjourney03@gmail.com
+			</footer>
+		</div>
+		<script>
+			var myIndex = 0;
+			carousel();
+
+			function carousel() {
+			    var i;
+			    var x = document.getElementsByClassName("mySlides");
+			    for (i = 0; i < x.length; i++) {
+			       x[i].style.display = "none";  
+			    }
+			    myIndex++;
+			    if (myIndex > x.length) {myIndex = 1}    
+			    x[myIndex-1].style.display = "block";  
+			    setTimeout(carousel, 2000); // Change image every 2 seconds
+			}
+		</script>
+	</body>
+</html>

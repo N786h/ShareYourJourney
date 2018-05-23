@@ -1,0 +1,207 @@
+html, body {
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	font-family: 'Nova Square', Helvetica, Arial, sans-serif;
+	background-color: #007FC0;
+}
+
+.container {
+	
+	margin: 0 auto;
+	background-color: #13f798;
+	padding: 5px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+
+.border {
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+header, footer {
+	background-color: #7ECBF3;
+	border:  1px solid black;
+	border-radius: 5px;
+}
+
+header img{
+	border-radius: 100px;
+	border-color: pink;
+}
+
+.login_img{
+	float: right;
+	margin-top: 0px;
+}
+
+footer {
+	margin-bottom: 0px;
+	padding: 10px;
+}
+
+header nav {
+	float: right;
+
+	list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+	display: inline;
+	font-size: 20px;
+	padding-right: 15px;
+	
+	min-width: 4em;
+    float: left;
+    margin-right: 0.2em;
+    margin-left: 10px;
+    text-align: center;
+}
+
+
+
+
+nav li a:link,
+nav li a:visited {
+    background-color: aqua;
+    display: block;
+    padding: 0.2em;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 0 0.2em 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-shadow: 3px 3px 3px 3px rgba(43, 43, 77, 0.5);
+}
+
+nav li a:hover {
+    background-color:lightgreen;
+    -webkit-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    transform: scale(1.2,1.2);
+}
+
+
+a {
+	color: #007FC0;
+	text-decoration: none;
+	display: block;
+    width: 150px;
+}
+
+#leftDiv {
+    background-color: #e8e8e8;
+    float: left;
+    width: 45%;
+    height: 430px;
+    padding: 0px;
+    margin: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.dvMap {
+    background-color: #13f798;
+}
+
+#rightDiv {
+    background-color: #e8e8e8;
+    float: right;
+    width: 45%;
+    height: 400px;
+    padding: 10px;
+    margin-top: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.dvPanel {
+    background-color: #13f798;
+}
+
+.mySlides {display:none;}
+
+.boxed {
+	box-shadow: 0 4px 4px 0 rgba(0,0,0,0.24), 0 0 4px 0 rgba(0,0,0,0.14);
+}
+
+#main {
+	min-height: 550px;
+	border-radius: 5px;
+	color: #202020;
+	margin: 10px 0px;
+	padding: 5px
+}
+
+.login-form {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	left: 30%;
+	width: 520px;
+	padding: 30px;
+	background-color: lightyellow;
+}
+
+#route{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	width: 25%;
+	padding: 0px;
+	left: 0%;
+	background-color: lightyellow;
+	background-color: #13f798;
+}
+
+.login-form label{
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 10px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="email"],
+.login-form input[type="date"],
+.login-form input[type="tel"],
+.login-form input[type="file"],
+.login-form input[type="number"],
+.login-form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+.login-form input[type="submit"],
+.login-form input[type="reset"], button {
+	background-color: #007FC0;
+	color: #fff;
+	border-radius: 10px;
+	padding: 5px;
+	margin-top: 5px; 
+	width: 150px;
+	font-size: 20px;
+}
+
+.login-form input[type="reset"] {
+	background-color: gray;
+}
+
+#matchRoot{
+    background-color: #007FC0;
+	color: #fff;
+	border-radius: 10px;
+	margin-top: 5px; 
+	width: 140px;
+	padding: 5px;
+	font-size: 20px;
+}
